@@ -1,0 +1,50 @@
+
+@font-face{
+    font-family: "Cairo";
+    src: url("Flamante-Cairo-Book.ttf");
+}
+
+#título {
+    font-family: Cairo, Helvetica, sans-serif;
+    color: rgb(255, 255, 0);
+    
+}
+body {
+     background-image: url(stars-2539245.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+   
+
+
+}
+
+#intro {
+    color: white;
+     
+    font-family: Helvetica, Arial, sans-serif;
+}
+#Planetas{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.057);
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+  
+    border: rgba(255, 255, 255, 0.127);
+    border-radius: 15px;
+    padding: 5px;
+}
+.cabecera_Planetas{
+    margin-left: 20px;
+    color: yellow;
+    position: relative;
+}
+.lista{
+    position: absolute;
+   
+}
+.lista2{
+    position: relative;
+    left: 250px;
+    top: 15px;
+}

@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    position: relative;
+}
+
+h1{
+    font-family: Cairo;
+    color: rgb(56, 241, 235);
+}
+@font-face{
+    font-family: "Cairo";
+    src: url("Flamante-Cairo-Book.ttf");
+}
+dt{
+    color: rgb(56, 241, 235);
+    
+}
+img{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 450px;
+    top: 70px;
+}
+div{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.073);
+    border-radius: 15px;
+}
